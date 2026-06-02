@@ -1,5 +1,3 @@
-# pgpatroniha
-PostgreSQL Patroni Setup with HAproxy 
 # Patroni + PostgreSQL 17 HA Cluster — dedicated etcd tier (Vagrant)
 
 A self-provisioning, high-availability **PostgreSQL 17** cluster managed by
@@ -248,4 +246,3 @@ box: "bento/rockylinux-9"
 | RAM | ~6.5 GB | ~6.5 GB (etcd nodes small) |
 | DCS isolation | none | full |
 | Best for | labs, quick demos | production-shaped testing |
-
