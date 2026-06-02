@@ -103,7 +103,7 @@ On Windows, ensure git does not convert the shell scripts to CRLF
 **Order matters**: the etcd tier must reach quorum before Patroni can register.
 
 ```bash
-git clone <your-repo-url> patroni-pg17-etcd-separate
+git clone https://github.com/ashoka4devops/pgpatroniha/patroni-pg17-etcd-separate
 cd patroni-pg17-etcd-separate
 
 vagrant up etcd1 etcd2 etcd3     # 1) dedicated DCS first
